@@ -1,0 +1,76 @@
+{
+  "superheroes": [
+    {
+      "id": 1,
+      "name": "Batman",
+      "alterEgo": "Bruce Wayne"
+    },
+    {
+      "id": 2,
+      "name": "Super Man",
+      "alterEgo": "Clark Kent"
+    },
+    {
+      "id": 3,
+      "name": "Wonder Women",
+      "alterEgo": "Princess Diana"
+    },
+    {
+      "id": 4,
+      "name": "Spider Man",
+      "alterEgo": "Peter Parker"
+    },
+    {
+      "name": "Iron man",
+      "alterego": "Tony Stark",
+      "id": 5
+    },
+    {
+      "name": "Black Adam",
+      "alterego": "Dwane johnson",
+      "id": 6
+    }
+  ],
+  "cars": [
+    {
+      "id": 1,
+      "color": "BMW"
+    },
+    {
+      "id": 2,
+      "color": "Marcedis"
+    },
+    {
+      "id": 3,
+      "color": "Audi"
+    },
+    {
+      "id": 4,
+      "color": "Volkswagen"
+    },
+    {
+      "id": 5,
+      "color": "Rolls Royalce"
+    },
+    {
+      "id": 6,
+      "color": "Ferrarri"
+    },
+    {
+      "id": 7,
+      "color": "Bently"
+    },
+    {
+      "id": 8,
+      "color": "Porche"
+    },
+    {
+      "id": 9,
+      "color": "Range rover"
+    },
+    {
+      "id": 10,
+      "color": "Jeep"
+    }
+  ]
+}
