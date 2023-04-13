@@ -16,6 +16,9 @@ import { RQSuperHero } from './components/RQSuperHero';
 import { RQcars } from './components/RQcars';
 import { RQInfiniteCars } from './components/RQInfiniteCars';
 import { PostingHeros } from './components/PostingHeros';
+import ParallaQueries from './components/parallalQueries';
+import DynamicParallal from './components/dynamicParallalQueries';
+import DependentQueries from './components/dependentQueries';
 
 const queryClient = new QueryClient()
 
@@ -35,6 +38,9 @@ function App() {
         <Route path="/postsuperheroes" element={<PostingHeros/>}/>
         <Route path="/rqinfinitecars" element={<RQInfiniteCars/>}/>
         <Route path="/rqsuperheroes/:id" element={<RQSuperHero/>}/>
+        <Route path="/parallalQueries" element={<ParallaQueries/>}></Route>
+        <Route path="/dynamic-parallal" element={<DynamicParallal heroIds={[1,3]}/>}></Route>
+        <Route path="/dependent-q" element={<DependentQueries email='tanbir@gmail.com'/>}></Route>
       </Routes>
 
       </Router>

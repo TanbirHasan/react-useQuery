@@ -72,5 +72,17 @@
       "id": 10,
       "color": "Jeep"
     }
+  ],
+  "users":[
+    {
+      "id":"tanbir@gmail.com",
+      "channelId":"codevolution"
+    }
+  ],
+  "channels":[
+    {
+      "id":"codevolution",
+      "courses":["react","vue","anguler"]
+    }
   ]
 }
